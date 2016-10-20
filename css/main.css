@@ -7,8 +7,6 @@ html {
 }
 
 .logo {
-  border-radius: 10px;
-
   color: #fff;
 }
 
@@ -17,14 +15,15 @@ html {
   text-align: center;
 }
 
-nav a {
+.nav li {
   display: inline-block;
-
-  background-color: #15114c;
-
-  text-decoration: none;
 }
 
-nav li {
-  display: inline-block;
+.btn {
+  background-color: #15114c;
+  border: none;
+}
+
+.icon {
+  margin: 0;
 }
